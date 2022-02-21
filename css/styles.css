@@ -780,7 +780,7 @@ header, .navbar {
   }
 
   #mainSlider .carousel-indicators{
-    top: 320px;
+          top: 320px;
   }
 
   #mainSlider .carousel-caption h2 {
@@ -801,7 +801,6 @@ header, .navbar {
   #about-area img {
     margin-top: 100px;
   }
-  
   
   /* team */
   .card-title {
@@ -868,16 +867,12 @@ header, .navbar {
     }
 
     /* team*/
-    #team-area .col-md-3{
-        width: 50%;
-        margin-top: 30px;
+    #team-area .card{
+        margin-top: 20px;
+        
 
     }
-    .card{
-        margin-top: 30px;
-
-    }
-
+   
     #call-area p{
         font-size: 12px;
     }
