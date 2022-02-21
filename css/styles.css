@@ -802,6 +802,11 @@ header, .navbar {
     margin-top: 100px;
   }
   
+  #team-area .card{
+    height: 400px;
+
+  }
+
   /* team */
   .card-title {
     font-size: 14px;
@@ -867,10 +872,17 @@ header, .navbar {
     }
 
     /* team*/
-    #team-area .card{
-        margin-top: 20px;
-        
 
+    
+    #team-area .col-md-3{
+        width: 50%;
+        margin-bottom: ;
+    }
+    
+
+    #team-area .card{
+        
+        
     }
    
     #call-area p{
