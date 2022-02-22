@@ -751,7 +751,7 @@ header, .navbar {
     }
 }  
 
-
+/* responsive phone */
 @media(max-width: 414px){
   #mainSlider .carousel-indicators{
     top: 150px;
@@ -770,4 +770,17 @@ header, .navbar {
    
   }
   
+}
+
+/* responsive phone */
+@media(max-width: 375px){
+
+  #mainSlider .carousel-caption h2{
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+    
+  #mainSlider .carousel-indicators{
+    top: 130px;
+  }
 }
