@@ -751,7 +751,8 @@ header, .navbar {
     }
 }  
 
-@media(max-width : 375px){
+
+@media(max-width: 414px){
   #mainSlider .carousel-indicators{
     top: 150px;
   }
@@ -767,8 +768,6 @@ header, .navbar {
   .carousel-caption .main-btn{
     font-size: 14px;
    
-}
+  }
   
-
-
 }
