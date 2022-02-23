@@ -785,7 +785,8 @@ header, .navbar {
   }
 }
 
-@media(max-width: 429px) {
+/* responsive phone */
+@media(max-width: 428px) {
   /* slider */
   #mainSlider{
       margin-top: 90px;
