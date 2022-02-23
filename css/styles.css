@@ -627,9 +627,72 @@ header, .navbar {
   color: #3EC1D5;
 }
 
-/* responsive tablet */
-@media(max-width: 768px) {
+
+
+/* responsive Tablet */
+@media(max-width: 768px){
+  /* geral */
+  .container {
+    padding: 20px 0;
+  }
   
+  /* slider */
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-indicators{
+          top: 320px;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 28px;
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+  
+  /* about */
+  #about-area img {
+    margin-top: 100px;
+  }
+  
+  #team-area .card{
+    height: auto;
+    margin-top: 25px;
+
+  }
+
+  /* team */
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  #call-area {
+    margin-top: 30px;
+  }
+
+  #call-area .container {
+    padding: 30px;
+  }
+
+  #call-area p{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
   /* geral */
   .container {
     padding: 20px 0;
@@ -688,199 +751,8 @@ header, .navbar {
   #call-area p{
     font-size: 14px;
   }
-
 }
 
-@media(max-width: 800px) {
-  
-  /* geral */
-  .container {
-    padding: 20px 0;
-  }
-  
-  /* slider */
-  #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: auto;
-  }
-
-  #mainSlider .carousel-indicators{
-          top: 320px;
-  }
-
-  #mainSlider .carousel-caption h2 {
-    font-size: 28px;
-  }
-
-  #mainSlider .carousel-caption p {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-
-  .carousel-caption {
-    left: 10%;
-    right: 10%;
-  }
-  
-  /* about */
-  #about-area img {
-    margin-top: 100px;
-  }
-  
-  #team-area .card{
-    height: 400px;
-
-  }
-
-  /* team */
-  .card-title {
-    font-size: 14px;
-  }
-
-  .card-text {
-    font-size: 12px;
-  }
-
-  #call-area {
-    margin-top: 30px;
-  }
-
-  #call-area .container {
-    padding: 30px;
-  }
-
-  #call-area p{
-    font-size: 14px;
-  }
-
-}
-
-@media(max-width: 820px) {
-  
-  /* geral */
-  .container {
-    padding: 20px 0;
-  }
-  
-  /* slider */
-  #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: auto;
-  }
-
-  #mainSlider .carousel-indicators{
-          top: 320px;
-  }
-
-  #mainSlider .carousel-caption h2 {
-    font-size: 28px;
-  }
-
-  #mainSlider .carousel-caption p {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-
-  .carousel-caption {
-    left: 10%;
-    right: 10%;
-  }
-  
-  /* about */
-  #about-area img {
-    margin-top: 100px;
-  }
-  
-  #team-area .card{
-    height: 400px;
-
-  }
-
-  /* team */
-  .card-title {
-    font-size: 14px;
-  }
-
-  .card-text {
-    font-size: 12px;
-  }
-
-  #call-area {
-    margin-top: 30px;
-  }
-
-  #call-area .container {
-    padding: 30px;
-  }
-
-  #call-area p{
-    font-size: 14px;
-  }
-
-}
-
-@media(max-width: 834px) {
-  
-  /* geral */
-  .container {
-    padding: 20px 0;
-  }
-  
-  /* slider */
-  #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: auto;
-  }
-
-  #mainSlider .carousel-indicators{
-          top: 320px;
-  }
-
-  #mainSlider .carousel-caption h2 {
-    font-size: 28px;
-  }
-
-  #mainSlider .carousel-caption p {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-
-  .carousel-caption {
-    left: 10%;
-    right: 10%;
-  }
-  
-  /* about */
-  #about-area img {
-    margin-top: 100px;
-  }
-  
-  #team-area .card{
-    height: 400px;
-
-  }
-
-  /* team */
-  .card-title {
-    font-size: 14px;
-  }
-
-  .card-text {
-    font-size: 12px;
-  }
-
-  #call-area {
-    margin-top: 30px;
-  }
-
-  #call-area .container {
-    padding: 30px;
-  }
-
-  #call-area p{
-    font-size: 14px;
-  }
-
-}
-
-/* responsive phone */
 @media(max-width: 425px) {
    /* slider */
    #mainSlider{
