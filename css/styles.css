@@ -843,3 +843,15 @@ header, .navbar {
        font-size: 12px;
    }
 } 
+
+@media(max-width: 320px){
+
+  #mainSlider .carousel-caption h2{
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+    
+  #mainSlider .carousel-indicators{
+    top: 125px;
+  }
+}
