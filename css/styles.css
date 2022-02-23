@@ -666,8 +666,7 @@ header, .navbar {
   
   #team-area .card{
     height: auto;
-    margin-top: 25px;
-
+    margin-top: 20px;
   }
 
   /* team */
@@ -793,6 +792,9 @@ header, .navbar {
     }
 
     /* team*/
+    #team-area .card{
+      height: 400px;
+    }
 
     
     #team-area .col-md-3{
@@ -829,6 +831,10 @@ header, .navbar {
     font-size: 14px;
    
   }
+
+  #team-area .card{
+    height: 400px;
+  }
   
 }
 
@@ -842,6 +848,10 @@ header, .navbar {
     
   #mainSlider .carousel-indicators{
     margin-top: -10px;
+  }
+
+  #team-area .card{
+    height: 400px;
   }
 }
 
@@ -885,19 +895,6 @@ header, .navbar {
        margin-bottom: 30px  ;
    }
 
-   /* team*/
-
-   
-   #team-area .col-md-3{
-       width: 50%;
-       margin-bottom: ;
-   }
-   
-
-   #team-area .card{
-       
-       
-   }
   
    #call-area p{
        font-size: 12px;
@@ -914,6 +911,10 @@ header, .navbar {
   #mainSlider .carousel-indicators{
     top: 125px;
   }
+
+  #team-area .card{
+    height: 400px;
+  }
 }
 
 @media(max-width: 360px){
@@ -922,8 +923,12 @@ header, .navbar {
     font-size: 15px;
     margin-bottom: 20px;
   }
-    
+  
   #mainSlider .carousel-indicators{
     top: 125px;
+  }
+
+  #team-area .card{
+    height: 400px;
   }
 }
