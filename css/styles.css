@@ -777,11 +777,11 @@ header, .navbar {
 
   #mainSlider .carousel-caption h2{
     font-size: 15px;
-    margin-bottom: 20px;
+    
   }
     
   #mainSlider .carousel-indicators{
-    top: 130px;
+    margin-top: -15px;
   }
 }
 
